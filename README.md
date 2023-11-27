@@ -10,13 +10,6 @@ To use this repository, you need to have a C compiler and a text editor. You can
 git clone https://github.com/awkward-py/C-struct.git
 ```
 
-Then, you can navigate to the directory and open the files in your editor. The files are:
-
-- `struct.c`: This file defines a structure called `person` that has three fields: `name`, `age`, and `gender`. It also shows how to create, initialize, and access structure variables.
-- `struct_array.c`: This file shows how to create and manipulate an array of structures. It defines a structure called `student` that has four fields: `name`, `roll`, `marks`, and `grade`. It also shows how to sort the array based on different criteria using a comparison function and the `qsort` library function.
-- `struct_pointer.c`: This file shows how to use pointers to structures. It defines a structure called `point` that has two fields: `x` and `y`. It also shows how to create, initialize, and access structure pointers, and how to pass them to functions.
-- `struct_function.c`: This file shows how to define and use functions that take structures as parameters or return structures as values. It defines a structure called `rectangle` that has two fields: `length` and `width`. It also defines functions to calculate the area, perimeter, and diagonal of a rectangle, and to compare two rectangles based on their areas.
-
 ## How to compile and run
 
 To compile and run the code, you need to use the `gcc` compiler and the `./` command. For example, to compile and run the `struct.c` file, you can use the following commands:
